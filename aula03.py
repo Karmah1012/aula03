@@ -1,0 +1,8 @@
+nome = input("Qual é o seu nome?")
+print (f"Meu nome é: {nome}")
+idade = int(input("Qual a sua idade?"))
+print (f"Minha idade é: {idade}")
+salario = float(input("Quanto você ganha?"))
+print (f"Meu salário é: {salario}")
+print (f"Eu me chamo {nome}, tenho {idade} anos e recebo {salario} de salário")
+aumento = input("Quantos porcento seu salario aumentou esse mês?")
