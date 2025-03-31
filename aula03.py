@@ -5,4 +5,10 @@ print (f"Minha idade é: {idade}")
 salario = float(input("Quanto você ganha?"))
 print (f"Meu salário é: {salario}")
 print (f"Eu me chamo {nome}, tenho {idade} anos e recebo {salario} de salário")
-aumento = input("Quantos porcento seu salario aumentou esse mês?")
+aumento = float(input("Quanto o seu salário aumentou?"))
+valor_acrescimo = salario*(aumento/100)
+print (valor_acrescimo)
+salario_do_mes = valor_acrescimo + salario
+print (f"O salário do mês é: {salario_do_mes}")
+
+
